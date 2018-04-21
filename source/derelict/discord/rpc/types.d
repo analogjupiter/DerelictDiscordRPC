@@ -128,7 +128,7 @@ struct DiscordEventHandlers
     See_Also:
         https://discordapp.com/developers/docs/rich-presence/how-to#ask-to-join-ask-to-join-response-codes
  +/
-enum DISCORD_REPLY_ : int
+enum : int
 {
     /++ +/
     DISCORD_REPLY_NO = 0,

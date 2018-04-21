@@ -25,7 +25,7 @@ extern (C) @nogc nothrow
     }
     alias da_Discord_UpdatePresence = void function(const DiscordRichPresence* presence);
     alias da_Discord_ClearPresence = void function();
-    alias da_Discord_Respond = void function(const(char)* userid, DISCORD_REPLY_ reply);
+    alias da_Discord_Respond = void function(const(char)* userid, int reply);
     alias da_Discord_UpdateHandlers = void function(DiscordEventHandlers* handlers);
 }
 
