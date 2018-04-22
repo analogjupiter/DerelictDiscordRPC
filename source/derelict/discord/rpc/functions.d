@@ -45,6 +45,7 @@ __gshared
     /++
         See_Also:
             https://discordapp.com/developers/docs/rich-presence/how-to#initialization
+            https://discordapp.com/developers/applications/me
      +/
     da_Discord_Initialize Discord_Initialize;
 
