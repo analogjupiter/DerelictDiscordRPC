@@ -1,18 +1,18 @@
 # DerelictDiscordRPC
 
-A dynamic binding to the *Discord Rich Presence (Discord-RPC)* library.
+A dynamic binding to the **Discord Rich Presence (Discord-RPC)** library.
 
 This is *not* an official Derelict binding.
 
 ## Installation
 
 You'll need a copy of the *Discord-RPC* dynamic library.
-Either [download the SDK](https://github.com/discordapp/discord-rpc) and build it yourself
-or download the pre-compiled binaries from [their GitHub releases page](https://github.com/discordapp/discord-rpc/releases).
-Please note that the SDK is licensed under the terms of the [MIT license](Discord-RPC_LICENSE).
+Either get the [SDK](https://github.com/discordapp/discord-rpc) and build it yourself
+or download the *pre-compiled binaries* from [GitHub releases page](https://github.com/discordapp/discord-rpc/releases).
 
-In order to use this bindings, add this package [as dependency](https://code.dlang.org/getting_started#adding-deps)
-to your DUB project.
+Please note that Discord-RPC are licensed under the terms of the [MIT license](Discord-RPC_LICENSE).
+
+In order to use this binding, add `derelict_extras-discord-rpc` into the [dependency section](https://code.dlang.org/getting_started#adding-deps) of your DUB project.
 
 
 ## Usage
@@ -24,13 +24,13 @@ void main()
     // Load the Discord-RPC library.
     DerelictDiscordRPC.load();
 
-    // Now Discord-RPC can be called.
+    // Now Discord-RPC functions can be called.
     ... 
 }
 ```
 
 For further information check the
-[Discord-RPC](https://discordapp.com/developers/docs/rich-presence/how-to) docs.
+[Discord-RPC docs](https://discordapp.com/developers/docs/rich-presence/how-to).
 
 
 ## Acknowledgement
