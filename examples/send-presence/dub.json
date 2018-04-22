@@ -1,0 +1,14 @@
+{
+    "name": "send-presence",
+    "description": "Discord-RPC send-presence example ported to non-idiomatic D",
+
+    "copyright": "Copyright ©  Discord, Inc.",
+    "license": "MIT",
+
+    "sourceFiles": [ "app.d" ],
+    "targetType": "executable",
+
+    "dependencies": {
+        "derelict_extras-discord-rpc": { "path": "../../" }
+    }
+}
