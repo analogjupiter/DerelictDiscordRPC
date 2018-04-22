@@ -19,6 +19,7 @@ Also don't forget to put the *Discord-RPC* binary into your application's direct
 ## Usage
 
 ```D
+import derelict.discord.rpc;
 
 void main()
 {
