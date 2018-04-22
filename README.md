@@ -13,6 +13,7 @@ or download the *pre-compiled binaries* from [GitHub releases page](https://gith
 Please note that Discord-RPC are licensed under the terms of the [MIT license](Discord-RPC_LICENSE).
 
 In order to use this binding, add `derelict_extras-discord-rpc` into the [dependency section](https://code.dlang.org/getting_started#adding-deps) of your DUB project.
+Also don't forget to put the *Discord-RPC* binary into your application's directory.
 
 
 ## Usage
@@ -29,7 +30,7 @@ void main()
 }
 ```
 
-For further information check the
+For further information on how to use *Discord-RPC* check the
 [Discord-RPC docs](https://discordapp.com/developers/docs/rich-presence/how-to).
 
 
