@@ -1,3 +1,5 @@
+# Project abandoned. Use [discord-rpc-d](https://github.com/voidblaster/discord-rpc-d) instead.
+
 # DerelictDiscordRPC
 
 A dynamic binding to the **Discord Rich Presence (Discord-RPC)** library.
